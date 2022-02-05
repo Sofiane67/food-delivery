@@ -1,0 +1,32 @@
+@import "../../../sass/abstract/variables.scss";
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1;
+    &__list{
+        display: flex;
+    }
+
+    &__list-item{
+        margin: 0 2.5rem;
+    }
+
+    &__link{
+        &--active{
+            color: $color-blue-primary
+        }
+    }
+
+    &__button-cart{
+        width: 5.5rem;
+        height: 5.5rem;
+        background-color: $color-blue-primary;
+        background-image: url("../../../images/bg/button-wave.svg");
+        border-radius: .5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
