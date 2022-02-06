@@ -2,12 +2,12 @@ import { FC } from "react";
 import classes from "./SectionImage.module.scss";
 
 const SectionImage:FC<{
-    image:string,
+    src:string,
     alt:string
-}> = ({image, alt}) => {
+}> = ({src, alt}) => {
     return (
         <div className={classes.sectionImage}>
-            <img src={image} alt={alt} className={classes["sectionImage__image"]}/>
+            <img src={src} alt={alt} className={classes["sectionImage__image"]}/>
         </div>
     )
 }

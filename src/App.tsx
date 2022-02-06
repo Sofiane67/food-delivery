@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.scss';
 import { Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
+import Home from './pages/Home/Home';
 import Order from './pages/Order';
 import Company from './pages/Company';
 import Faq from './pages/Faq';
