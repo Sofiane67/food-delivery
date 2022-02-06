@@ -5,16 +5,18 @@ body{
 }
 
 h1,h2,h3{
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Inter', sans-serif;
   color: $color-heading;
 }
 
 h1{
   font-size: 6rem;
+  font-weight: 700;
 }
 
 h2{
   font-size: 5.5rem;
+  color: $color-blue-primary;
 }
 
 h3{

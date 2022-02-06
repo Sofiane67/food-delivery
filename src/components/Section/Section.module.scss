@@ -1,0 +1,12 @@
+
+
+.section{
+    display: flex;
+
+    &--bgImg{
+        background-image: url(../../images/bg/yumyum.png), url(../../images/bg/bg_shape_content.svg);
+        background-repeat: no-repeat;
+        padding: 10rem 3%;
+        background-position: 10% center, top center;
+    }
+}
