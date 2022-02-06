@@ -1,0 +1,15 @@
+@import "../../sass/abstract/variables.scss";
+
+.hero{
+    padding: 10rem 3%;
+    background-image: url("../../images/bg/yumyum.png"), linear-gradient($color-bg, $color-bg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+
+    &--home{
+        background-image: url("../../images/bg/bg_shape.svg");
+        background-position: right top;
+        
+    }
+}

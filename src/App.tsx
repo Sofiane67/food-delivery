@@ -13,15 +13,13 @@ function App() {
   return (
     <>
       <Header />
-      <Wrapper layout="">
-        <Routes>
-          <Route index element={<Home/>}/>
-          <Route path="order" element={<Order/>}/>
-          <Route path="company" element={<Company />} />
-          <Route path="faq" element={<Faq />} />
-          <Route path="contact" element={<Contact />} />
-        </Routes>
-      </Wrapper>
+      <Routes>
+        <Route index element={<Home/>}/>
+        <Route path="order" element={<Order/>}/>
+        <Route path="company" element={<Company />} />
+        <Route path="faq" element={<Faq />} />
+        <Route path="contact" element={<Contact />} />
+      </Routes>
     </>
   );
 }

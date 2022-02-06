@@ -1,0 +1,10 @@
+@import "../../../sass/abstract/variables.scss";
+
+.sectionBtn{
+    background-color: $color-blue-primary;
+    background-image: url("../../../images/bg/button-wave.svg");
+    border-radius: .5rem;
+    color: #fff;
+    padding: 2rem 3.5rem;
+    margin-top: 5.5rem;
+}
