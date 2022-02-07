@@ -1,0 +1,15 @@
+@import "../../sass/abstract/variables.scss";
+
+.button{
+    background-color: $color-blue-primary;
+    background-image: url("../../images/bg/button-wave.svg");
+    border-radius: .5rem;
+    color: #fff;
+    padding: 1.5rem 3rem;
+
+    &--tab{
+        background-color: transparent;
+        color: currentColor;
+        border: solid 1px rgba($color-paragraph, 0.5);
+    }
+}

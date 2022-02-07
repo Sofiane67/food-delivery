@@ -1,0 +1,23 @@
+@import "../../../../sass/abstract/variables.scss";
+
+.menu{
+    &__tabs{
+        margin-top: 4rem;
+    }
+
+    &__tab{
+        background-color: transparent;
+        color: currentColor;
+        border: solid 1px rgba($color-paragraph, 0.5);
+        padding: 1.5rem 3rem;
+        border-radius: .5rem;
+        margin: 0 2rem;
+
+        &--current{
+            background-color: $color-blue-primary;
+            background-image: url("../../../../images/bg/button-wave.svg");
+            color: #fff;
+            border: 0;
+        }
+    }
+}
