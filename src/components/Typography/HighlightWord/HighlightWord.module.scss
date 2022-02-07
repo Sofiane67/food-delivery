@@ -2,4 +2,7 @@
 
 .highlightWord{
     color: $color-blue-primary;
+    &--darken{
+        color: darken( $color-blue-primary, 10)
+    }
 }

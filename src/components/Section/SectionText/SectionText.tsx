@@ -7,15 +7,20 @@ const SectionText:FC<{
     link:{
         url:string,
         name:string
-    }
-}> = ({children, text, link}) => {
+    },
+    backgroundColor:boolean,
+    colorBtn:string
+}> = ({children, text, link, backgroundColor, colorBtn}) => {
     const {url, name} = link;
+    let nameClass = classes.sectionText;
+
+    if(backgroundColor) nameClass += ` ${classes["sectionText--bg-blue"]}`;
 
     return (
-        <div className={classes.sectionText}>
+        <div className={nameClass}>
             {children}
             <p>{text}</p>
-            <SectionBtn url={url} name={name}/>
+            <SectionBtn url={url} name={name} color={colorBtn}/>
         </div>
     )
 }

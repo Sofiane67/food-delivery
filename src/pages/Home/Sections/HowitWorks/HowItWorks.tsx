@@ -41,8 +41,8 @@ const works = [
 
 const HowItWorks = () => {
     return (
-        <Section layout="" backgroundImage={false}>
-            <H2>How it works.</H2>
+        <Section layout="" backgroundImage={false} fullWidth={false}>
+            <H2 color="">How it works.</H2>
             <div className={classes.works}>
                 {
                     works.map((work:{

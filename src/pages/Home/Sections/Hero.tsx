@@ -11,9 +11,9 @@ const text = "Lorem Ipsum is simply dummy text of the printing and typesetting i
 const Hero = () => {
     return (
         <Container home={true}>
-        <Wrapper layout="row">
-            <SectionText text={text} link={{url:"/order", name:"Place an Order"}}>
-                <H1>Beautiful food & takeaway, <HighlightWord>delivered</HighlightWord> to your door.</H1>
+        <Wrapper layout="row" fullWidth={false}>
+            <SectionText text={text} link={{url:"/order", name:"Place an Order"}} backgroundColor={false} colorBtn="">
+                <H1>Beautiful food & takeaway, <HighlightWord color="">delivered</HighlightWord> to your door.</H1>
             </SectionText>
             <SectionImage src={heroImage} alt="image illustration"/>
         </Wrapper>

@@ -3,10 +3,14 @@ import classes from "./SectionBtn.module.scss";
 
 const SectionBtn:FC<{
     url:string,
-    name:string
-}> = ({url, name}) => {
+    name:string,
+    color: string
+}> = ({url, name, color}) => {
+    let nameClass = classes.sectionBtn;
+    if(color) nameClass += ` ${classes[`sectionBtn--${color}`]}`;
+
     return (
-        <a className={classes.sectionBtn} href={url}>{name}</a>
+        <a className={nameClass} href={url}>{name}</a>
     )
 }
 

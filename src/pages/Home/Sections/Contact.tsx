@@ -2,25 +2,25 @@ import Section from "../../../components/Section/Section";
 import SectionText from "../../../components/Section/SectionText/SectionText";
 import SectionImage from "../../../components/Section/SectionImage/SectionImage";
 import H2 from "../../../components/Typography/Heading/H2/H2";
-import aboutImg from "../../../images/img_about.png";
+import contactImg from "../../../images/store-img.png";
 
 
 const content = {
-    title: "The home of fresh products",
+    title: "Call our store and takeaway when it suits you best.",
     text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500.",
     link: {
-        url: "/company",
-        name:"Learn about us"
+        url: "tel:+33601020304",
+        name:"(+33)601020304"
     },
 }
 
 
 const image = {
-        src: aboutImg,
-        alt: "illustration section about"
+        src: contactImg,
+        alt: "illustration section contact"
     }
 
-const About = () => {
+const Contact = () => {
     return (
         <Section layout="row" backgroundImage={true} fullWidth={false}>
             <SectionText text={content.text} link={content.link} backgroundColor={false} colorBtn="">
@@ -31,4 +31,4 @@ const About = () => {
     )
 }
 
-export default About;
+export default Contact;

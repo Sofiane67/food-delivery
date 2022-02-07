@@ -7,4 +7,10 @@
     color: #fff;
     padding: 2rem 3.5rem;
     margin-top: 5.5rem;
+
+    &--white{
+        background-color: #fff;
+        color: $color-blue-primary;
+        background-image: none;
+    }
 }

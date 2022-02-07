@@ -4,15 +4,16 @@ import Wrapper from "../layout/Wrapper/Wrapper";
 
 const Section:FC<{
     layout:string
-    backgroundImage: boolean
-}> = ({children,layout,backgroundImage}) => {
+    backgroundImage: boolean,
+    fullWidth:boolean
+}> = ({children,layout,backgroundImage, fullWidth}) => {
 
     let nameClass = classes.section;
     if(backgroundImage) nameClass += ` ${classes["section--bgImg"]}`
 
     return (
         <section className={nameClass}>
-            <Wrapper layout={layout}>
+            <Wrapper layout={layout} fullWidth={fullWidth}>
                 {children}
             </Wrapper>
         </section>
