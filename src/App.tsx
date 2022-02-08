@@ -7,7 +7,6 @@ import Company from './pages/Company';
 import Faq from './pages/Faq';
 import Contact from './pages/Contact';
 import Header from './components/layout/Header/Header';
-import Wrapper from './components/layout/Wrapper/Wrapper';
 import Footer from './components/layout/Footer/Footer';
 
 function App() {

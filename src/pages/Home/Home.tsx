@@ -6,9 +6,7 @@ import Contact from "./Sections/Contact";
 import Order from "./Sections/Order/Order";
 import Menu from "./Sections/Menu/Menu";
 
-
 const Home = () => {
-
     return (
         <>
             <Hero/>
